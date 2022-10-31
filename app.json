@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "nativewall",
+    "name": "PicSpace",
     "slug": "nativewall",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app_icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/app_icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#292929"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,9 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/app_icon.png",
+        "backgroundColor": "#292929"
+      },
+      "package": "com.scriptd.picspace"
     },
     "web": {
       "favicon": "./assets/favicon.png"
